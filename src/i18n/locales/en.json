@@ -1,0 +1,181 @@
+{
+  "hero": {
+    "tag": "HSE Expert Session",
+    "season": "2026 Season",
+    "title": {
+      "line1": "The Creative",
+      "line2": "Pitch"
+    },
+    "subtitle": {
+      "line1": "Pitch Your Project.",
+      "line2": "Survive the Experts.",
+      "line3": "Secure the Prize."
+    },
+    "buttons": {
+      "register": "Register Now",
+      "schedule": "View Schedule"
+    },
+    "scroll": "Scroll to Initiate",
+    "coordinates": "COORDINATES: 55.7558° N, 37.6173° E",
+    "time": "EST. TIME: 10:00 - 17:10"
+  },
+  "concept": {
+    "heading": "The Concept",
+    "intro": {
+      "before": "This isn't just a presentation. ",
+      "highlight": "It's a high-stakes game.",
+      "body": "Participants face the experts in a raw, unfiltered environment. No safety nets. Just your idea, your voice, and the jury's verdict. Between the battles, experts drop knowledge bombs to arm you for the real world."
+    },
+    "features": [
+      {
+        "title": "Pitch Your Project",
+        "desc": "3-minute intense pitch to a panel of experts. Make it count."
+      },
+      {
+        "title": "The Jury",
+        "desc": "Experts sit in a semicircle. Immediate, unfiltered feedback."
+      },
+      {
+        "title": "Masterclasses",
+        "desc": "Short, intensive lectures sharing the exact advice pitchers need."
+      },
+      {
+        "title": "Secure The Prize",
+        "desc": "One winner takes points for master's admission. Survival of the fittest."
+      }
+    ]
+  },
+  "timeline": {
+    "heading": "Timeline",
+    "headingAccent": "&",
+    "headingEnd": "Access",
+    "events": [
+      {
+        "date": "MAR 08",
+        "title": "Registration Opens"
+      },
+      {
+        "date": "APR 08",
+        "title": "Registration Deadline"
+      },
+      {
+        "date": "APR 18",
+        "title": "THE MAIN EVENT"
+      }
+    ],
+    "options": [
+      {
+        "title": "Project Team",
+        "detail": "1-4 People",
+        "req": "Submit Project Name + 3-Sentence Concept",
+        "action": "Pitch Your Idea"
+      },
+      {
+        "title": "Listener",
+        "detail": "Individual",
+        "req": "Register to Attend",
+        "action": "Watch & Learn"
+      }
+    ],
+    "register": "Select & Register"
+  },
+  "experts": {
+    "heading": "The",
+    "headingAccent": "Experts",
+    "topicLabel": "Topic:",
+    "items": [
+      {
+        "name": "Renowned Artist",
+        "role": "Visual Design & Art",
+        "topic": "The Reality Check",
+        "desc": "How I Failed Before I Succeeded. Raw, honest talk about the gap between a creative idea and market reality."
+      },
+      {
+        "name": "Financial Consultant",
+        "role": "Finance & Strategy",
+        "topic": "The Numbers Don't Lie",
+        "desc": "How to Calculate Your Hourly Rate & Not Go Broke. Budgeting for creative people."
+      },
+      {
+        "name": "Kim Elena",
+        "role": "Head of Partner Comms, Gazprom Neft",
+        "topic": "Selling the Story",
+        "desc": "The PR Factor: How to Talk to Partners and the Press. Crafting a narrative that attracts sponsors."
+      },
+      {
+        "name": "Guest Expert",
+        "role": "Creative Direction",
+        "topic": "Jury Panel",
+        "desc": "Providing critical feedback and industry insights during the pitch sessions."
+      }
+    ]
+  },
+  "schedule": {
+    "heading": "Main Event",
+    "headingAccent": "Schedule",
+    "date": "April 18 • 10:00 - 17:10",
+    "items": [
+      {
+        "time": "10:00 - 10:30",
+        "title": "Check-in & Name Tags",
+        "desc": "Participants arrive. Project teams receive timeslot badges."
+      },
+      {
+        "time": "10:30 - 10:40",
+        "title": "Opening Ceremony",
+        "desc": "Organizer welcomes everyone. Rules explained. Experts introduced."
+      },
+      {
+        "time": "10:40 - 11:40",
+        "title": "PITCH BLOCK 1",
+        "desc": "3 project teams pitch (7 min each + 10-15 min Q&A)."
+      },
+      {
+        "time": "11:40 - 12:10",
+        "title": "Lecture 1: The Reality Check",
+        "desc": "How I Failed Before I Succeeded. By Renowned Artist."
+      },
+      {
+        "time": "12:10 - 13:10",
+        "title": "PITCH BLOCK 2",
+        "desc": "3 project teams pitch to the experts."
+      },
+      {
+        "time": "13:10 - 14:00",
+        "title": "Lunch Break",
+        "desc": "Informal networking."
+      },
+      {
+        "time": "14:00 - 14:30",
+        "title": "Lecture 2: The Numbers Don't Lie",
+        "desc": "Budgeting for creative people. By Financial Consultant."
+      },
+      {
+        "time": "14:30 - 15:30",
+        "title": "PITCH BLOCK 3",
+        "desc": "Final group of project teams pitch."
+      },
+      {
+        "time": "15:30 - 16:00",
+        "title": "Lecture 3: Selling the Story",
+        "desc": "The PR Factor. By Kim Elena (Gazprom Neft)."
+      },
+      {
+        "time": "16:00 - 16:40",
+        "title": "THE FINALE",
+        "desc": "Experts deliberate. Winner announcement. Feedback forms."
+      },
+      {
+        "time": "16:40 - 17:10",
+        "title": "Closing",
+        "desc": "Informal celebration, thanking experts."
+      }
+    ]
+  },
+  "footer": {
+    "title": "THE CREATIVE PITCH 2026",
+    "subtitle": "HSE Expert Session",
+    "registration": "Registration: March 8 - April 8",
+    "event": "Event: April 18, 2026"
+  }
+}
