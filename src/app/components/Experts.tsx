@@ -13,7 +13,7 @@ export function Experts() {
     document.documentElement.lang = i18n.language;
   }, [i18n.language]);
 
-  const experts = [0, 1, 2, 3].map((i) => ({
+  const experts = [0, 1, 2].map((i) => ({
     name: t(`experts.items.${i}.name`),
     role: t(`experts.items.${i}.role`),
     topic: t(`experts.items.${i}.topic`),
@@ -42,7 +42,7 @@ export function Experts() {
             <div className="h-1 w-24 bg-purple-500 mx-auto" />
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {experts.map((expert, i) => (
                 <motion.div
                     key={i}
