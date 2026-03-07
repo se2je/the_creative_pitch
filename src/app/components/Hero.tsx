@@ -9,7 +9,7 @@ export function Hero() {
   const { t } = useTranslation();
 
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-black text-white selection:bg-lime-500 selection:text-black">
+    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-black text-white selection:bg-pink-500 selection:text-black">
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black z-10 opactiy-80" />
         <div className="absolute inset-0 bg-black/60 z-10" />
@@ -24,7 +24,7 @@ export function Hero() {
       <div className="absolute inset-0 z-0 pointer-events-none border border-white/5 m-4 md:m-8 rounded-sm"></div>
 
       <motion.div
-        className="absolute w-full h-[1px] bg-lime-500/30 z-0 top-0 left-0"
+        className="absolute w-full h-[1px] bg-pink-500/30 z-0 top-0 left-0"
         animate={{ top: ["0%", "100%"] }}
         transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
       />
@@ -37,10 +37,10 @@ export function Hero() {
           transition={{ duration: 0.5 }}
           className="flex items-center gap-2 mb-8"
         >
-          <span className="bg-lime-500 text-black text-xs font-mono px-2 py-0.5 font-bold uppercase tracking-widest">
+          <span className="bg-pink-500 text-black text-xs font-mono px-2 py-0.5 font-bold uppercase tracking-widest">
             {t('hero.tag')}
           </span>
-          <span className="text-lime-500/70 text-xs font-mono uppercase tracking-widest border border-lime-500/30 px-2 py-0.5">
+          <span className="text-pink-500/70 text-xs font-mono uppercase tracking-widest border border-pink-500/30 px-2 py-0.5">
             {t('hero.season')}
           </span>
             <img src={logo} className="block w-10" alt=""/>
@@ -55,7 +55,7 @@ export function Hero() {
           style={{ fontFamily: "'Orbitron', sans-serif" }}
         >
           <span className="block text-transparent bg-clip-text bg-gradient-to-b from-white to-white/50">{t('hero.title.line1')}</span>
-          <span className="block text-transparent bg-clip-text bg-gradient-to-b from-lime-400 to-lime-600">{t('hero.title.line2')}</span>
+          <span className="block text-transparent bg-clip-text bg-gradient-to-b from-pink-400 to-pink-600">{t('hero.title.line2')}</span>
         </motion.h1>
 
         <motion.div
@@ -64,10 +64,10 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.8 }}
         >
-          <p className="text-lg md:text-2xl font-mono text-white/80 uppercase tracking-widest border-l-2 border-lime-500 pl-4 text-left">
+          <p className="text-lg md:text-2xl font-mono text-white/80 uppercase tracking-widest border-l-2 border-pink-500 pl-4 text-left">
             <span className="block">{t('hero.subtitle.line1')}</span>
             <span className="block text-white">{t('hero.subtitle.line2')}</span>
-            <span className="block text-lime-400">{t('hero.subtitle.line3')}</span>
+            <span className="block text-pink-400">{t('hero.subtitle.line3')}</span>
           </p>
         </motion.div>
 
@@ -79,7 +79,7 @@ export function Hero() {
         >
           <a
             href="#register"
-            className="group relative flex-1 bg-lime-500 hover:bg-lime-400 text-black font-bold font-mono uppercase tracking-wider py-4 px-8 flex items-center justify-center gap-2 transition-all clip-path-polygon"
+            className="group relative flex-1 bg-pink-500 hover:bg-pink-400 text-black font-bold font-mono uppercase tracking-wider py-4 px-8 flex items-center justify-center gap-2 transition-all clip-path-polygon"
             style={{ clipPath: "polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px)" }}
           >
             {t('hero.buttons.register')}
@@ -91,7 +91,7 @@ export function Hero() {
             style={{ clipPath: "polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px)" }}
           >
             {t('hero.buttons.schedule')}
-            <Zap className="w-4 h-4 text-lime-500" />
+            <Zap className="w-4 h-4 text-pink-500" />
           </a>
         </motion.div>
 
@@ -100,7 +100,7 @@ export function Hero() {
           <span>{t('hero.time')}</span>
         </div>
         <div className="absolute bottom-12 right-12 hidden lg:block">
-           <Crosshair className="w-12 h-12 text-lime-500/20 animate-spin-slow" />
+           <Crosshair className="w-12 h-12 text-pink-500/20 animate-spin-slow" />
         </div>
       </div>
 
@@ -110,7 +110,7 @@ export function Hero() {
         transition={{ duration: 2, repeat: Infinity }}
       >
         <span className="text-[10px] uppercase tracking-[0.2em] font-mono">{t('hero.scroll')}</span>
-        <div className="w-[1px] h-12 bg-gradient-to-b from-lime-500/0 via-lime-500 to-lime-500/0"></div>
+        <div className="w-[1px] h-12 bg-gradient-to-b from-pink-500/0 via-pink-500 to-pink-500/0"></div>
       </motion.div>
     </section>
   );

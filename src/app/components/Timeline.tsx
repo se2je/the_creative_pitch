@@ -5,7 +5,7 @@ import {useTranslation} from "react-i18next";
 import {cn} from "../../lib/utils";
 
 const icons = [Users, User];
-const colors = ["lime", "purple"];
+const colors = ["pink", "pink"];
 
 export function TimelineAndRegistration() {
     const {t, i18n} = useTranslation();
@@ -53,9 +53,9 @@ export function TimelineAndRegistration() {
                         style={{fontFamily: "var(--font-display)"}}
                     >
                         {t('timeline.heading')} <span
-                        className="text-lime-500">{t('timeline.headingAccent')}</span> {t('timeline.headingEnd')}
+                        className="text-pink-500">{t('timeline.headingAccent')}</span> {t('timeline.headingEnd')}
                     </motion.h2>
-                    <div className="h-1 w-24 bg-lime-500 mx-auto"/>
+                    <div className="h-1 w-24 bg-pink-500 mx-auto"/>
                 </div>
 
                 {/* Timeline Horizontal */}
@@ -73,12 +73,12 @@ export function TimelineAndRegistration() {
                             >
                                 <div className={cn(
                                     "w-4 h-4 rounded-full border-2 bg-black mb-4 transition-all duration-300 group-hover:scale-150",
-                                    ev.isMain ? "border-lime-500 bg-lime-500 shadow-[0_0_20px_rgba(132,204,22,0.6)]" : "border-white/50 group-hover:border-white"
+                                    ev.isMain ? "border-pink-500 bg-pink-500 shadow-[0_0_20px_rgba(132,204,22,0.6)]" : "border-white/50 group-hover:border-white"
                                 )}/>
                                 <div
                                     className="text-center bg-black/80 backdrop-blur-sm p-2 border border-white/10 rounded-sm group-hover:border-white/30 transition-colors">
                   <span
-                      className={cn("block text-2xl font-black mb-1", ev.isMain ? "text-lime-400" : "text-white")}
+                      className={cn("block text-2xl font-black mb-1", ev.isMain ? "text-pink-400" : "text-white")}
                       style={{fontFamily: "var(--font-display)"}}
                   >
                     {ev.date}
@@ -97,10 +97,10 @@ export function TimelineAndRegistration() {
                         <div key={i} className="relative">
                             <div className={cn(
                                 "absolute -left-[39px] top-2 w-4 h-4 rounded-full border-2 bg-black",
-                                ev.isMain ? "border-lime-500 bg-lime-500" : "border-white/50"
+                                ev.isMain ? "border-pink-500 bg-pink-500" : "border-white/50"
                             )}/>
                             <h3
-                                className={cn("text-2xl font-black", ev.isMain ? "text-lime-400" : "text-white")}
+                                className={cn("text-2xl font-black", ev.isMain ? "text-pink-400" : "text-white")}
                                 style={{fontFamily: "var(--font-display)"}}
                             >
                                 {ev.date}
@@ -123,12 +123,12 @@ export function TimelineAndRegistration() {
                         >
                             <div className={cn(
                                 "absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-500 pointer-events-none bg-[url('https://grainy-gradients.vercel.app/noise.svg')]",
-                                opt.color === 'lime' ? 'bg-lime-500' : 'bg-purple-500'
+                                opt.color === 'pink' ? 'bg-pink-500' : 'bg-pink-500'
                             )}/>
 
                             <div className="flex items-start justify-between mb-8">
                                 <opt.icon
-                                    className={cn("w-12 h-12 stroke-1", opt.color === 'lime' ? 'text-lime-400' : 'text-purple-400')}/>
+                                    className={cn("w-12 h-12 stroke-1", opt.color === 'pink' ? 'text-pink-400' : 'text-pink-400')}/>
                                 <span
                                     className="font-mono text-xs border border-white/20 px-2 py-1 rounded text-gray-400 uppercase tracking-wider">
                   Option 0{i + 1}
@@ -148,16 +148,16 @@ export function TimelineAndRegistration() {
                             <div className="space-y-4 mb-8">
                                 <div className="flex items-center gap-3">
                                     <div
-                                        className={cn("w-1 h-1 rounded-full", opt.color === 'lime' ? 'bg-lime-500' : 'bg-purple-500')}/>
+                                        className={cn("w-1 h-1 rounded-full", opt.color === 'pink' ? 'bg-pink-500' : 'bg-pink-500')}/>
                                     <span className="text-sm text-gray-300 font-sans">{opt.req}</span>
                                 </div>
                             </div>
 
                             <a href={opt.link} target="_blank" className={cn(
                                 "w-full block text-center py-4 font-bold font-mono uppercase tracking-widest text-sm transition-all hover:translate-y-[-2px]",
-                                opt.color === 'lime'
-                                    ? 'bg-lime-500 text-black hover:bg-lime-400 hover:shadow-[0_0_20px_rgba(132,204,22,0.4)]'
-                                    : 'bg-transparent border border-purple-500 text-purple-400 hover:bg-purple-500 hover:text-white'
+                                opt.color === 'pink'
+                                    ? 'bg-pink-500 text-black hover:bg-pink-400 hover:shadow-[0_0_20px_rgba(132,204,22,0.4)]'
+                                    : 'bg-transparent border border-pink-500 text-pink-400 hover:bg-pink-500 hover:text-white'
                             )}
                                style={{clipPath: "polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px)"}}
                             >

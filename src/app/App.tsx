@@ -37,7 +37,7 @@ export default function App() {
                         </div>
                         <div className="text-sm">
                             <p className="mb-1">{t('footer.registration')}</p>
-                            <p className="text-lime-400">{t('footer.event')}</p>
+                            <p className="text-pink-400">{t('footer.event')}</p>
                         </div>
                     </div>
                 </div>

@@ -24,7 +24,7 @@ export function Experts() {
 
   return (
       <section className="bg-black py-24 relative overflow-hidden text-white font-mono border-t border-white/10">
-        <div className="absolute inset-0 z-0 bg-purple-900/5 mix-blend-overlay pointer-events-none" />
+        <div className="absolute inset-0 z-0 bg-pink-900/5 mix-blend-overlay pointer-events-none" />
 
         <div className="container mx-auto px-6 max-w-7xl relative z-10">
           <motion.div
@@ -37,9 +37,9 @@ export function Experts() {
                 className="text-4xl md:text-6xl font-black uppercase tracking-tighter mb-4"
                 style={{ fontFamily: "var(--font-display)" }}
             >
-              {t('experts.heading')} <span className="text-purple-500">{t('experts.headingAccent')}</span>
+              {t('experts.heading')} <span className="text-pink-500">{t('experts.headingAccent')}</span>
             </h2>
-            <div className="h-1 w-24 bg-purple-500 mx-auto" />
+            <div className="h-1 w-24 bg-pink-500 mx-auto" />
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -50,13 +50,13 @@ export function Experts() {
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
                     transition={{ delay: expert.delay }}
-                    className="group relative bg-zinc-900/80 border border-white/10 hover:border-purple-500/50 transition-all duration-300 flex flex-col h-full overflow-hidden"
+                    className="group relative bg-zinc-900/80 border border-white/10 hover:border-pink-500/50 transition-all duration-300 flex flex-col h-full overflow-hidden"
                 >
-                  <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl from-purple-500/20 to-transparent -mr-8 -mt-8 rounded-full blur-xl group-hover:scale-150 transition-transform" />
+                  <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl from-pink-500/20 to-transparent -mr-8 -mt-8 rounded-full blur-xl group-hover:scale-150 transition-transform" />
 
                   <div className="p-8 flex-1 flex flex-col items-center text-center">
-                    <div className="w-20 h-20 rounded-full border-2 border-white/10 bg-black flex items-center justify-center mb-6 group-hover:border-purple-500 transition-colors">
-                      <expert.icon className="w-8 h-8 text-gray-400 group-hover:text-purple-400" />
+                    <div className="w-20 h-20 rounded-full border-2 border-white/10 bg-black flex items-center justify-center mb-6 group-hover:border-pink-500 transition-colors">
+                      <expert.icon className="w-8 h-8 text-gray-400 group-hover:text-pink-400" />
                     </div>
 
                     <h3
@@ -65,7 +65,7 @@ export function Experts() {
                     >
                       {expert.name}
                     </h3>
-                    <p className="text-xs text-purple-400 font-mono uppercase mb-6 tracking-widest">{expert.role}</p>
+                    <p className="text-xs text-pink-400 font-mono uppercase mb-6 tracking-widest">{expert.role}</p>
 
                     <div className="w-full h-px bg-white/10 mb-6" />
 
@@ -76,7 +76,7 @@ export function Experts() {
                     </div>
                   </div>
 
-                  <div className="h-1 w-full bg-gradient-to-r from-transparent via-purple-500/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <div className="h-1 w-full bg-gradient-to-r from-transparent via-pink-500/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                 </motion.div>
             ))}
           </div>

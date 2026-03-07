@@ -37,9 +37,9 @@ export function Schedule() {
                         className="text-4xl md:text-6xl font-black uppercase tracking-tighter text-white mb-4"
                         style={{fontFamily: "var(--font-display)"}}
                     >
-                        {t('schedule.heading')} <span className="text-lime-500">{t('schedule.headingAccent')}</span>
+                        {t('schedule.heading')} <span className="text-pink-500">{t('schedule.headingAccent')}</span>
                     </h2>
-                    <div className="h-1 w-24 bg-lime-500 mx-auto mb-4"/>
+                    <div className="h-1 w-24 bg-pink-500 mx-auto mb-4"/>
                     <p className="text-gray-400 font-mono">{t('schedule.date')}</p>
                 </motion.div>
 
@@ -55,15 +55,15 @@ export function Schedule() {
                         >
                             {/* Timeline dot */}
                             <div className={`absolute -left-[43px] md:-left-[41px] top-1 w-5 h-5 rounded-full border-4 border-black z-10
-                ${item.type === 'pitch' ? 'bg-lime-500 shadow-[0_0_15px_rgba(132,204,22,0.8)]' :
-                                item.type === 'finale' ? 'bg-purple-500 shadow-[0_0_15px_rgba(168,85,247,0.8)]' :
+                ${item.type === 'pitch' ? 'bg-pink-500 shadow-[0_0_15px_rgba(132,204,22,0.8)]' :
+                                item.type === 'finale' ? 'bg-pink-500 shadow-[0_0_15px_rgba(168,85,247,0.8)]' :
                                     'bg-white/20'}`}
                             />
 
                             <div className="grid grid-cols-1 md:grid-cols-[140px_1fr] gap-4 md:gap-8 items-start group">
                                 {/* Time */}
                                 <div
-                                    className="font-mono text-lime-500/80 text-sm py-1 border border-lime-500/20 bg-lime-900/10 px-2 rounded w-fit md:w-full text-center group-hover:bg-lime-500/20 transition-colors">
+                                    className="font-mono text-pink-500/80 text-sm py-1 border border-pink-500/20 bg-pink-900/10 px-2 rounded w-fit md:w-full text-center group-hover:bg-pink-500/20 transition-colors">
                                     {item.time}
                                 </div>
 
@@ -71,7 +71,7 @@ export function Schedule() {
                                 <div className="pb-8 border-b border-white/5 last:border-0">
                                     <h3
                                         className={`text-xl font-bold uppercase tracking-wider mb-2 flex items-center gap-3
-                      ${item.type === 'pitch' ? 'text-lime-400' : item.type === 'finale' ? 'text-purple-400' : 'text-white'}`}
+                      ${item.type === 'pitch' ? 'text-pink-400' : item.type === 'finale' ? 'text-pink-400' : 'text-white'}`}
                                         style={{fontFamily: "var(--font-display)"}}
                                     >
                                         {item.title}
@@ -88,7 +88,7 @@ export function Schedule() {
             </div>
             <a
                 href="#"
-                className="group relative flex-1 bg-lime-500 hover:bg-lime-400 text-black font-bold max-w-1/2 mx-auto my-5 font-mono uppercase tracking-wider py-4 px-8 flex items-center justify-center gap-2 transition-all clip-path-polygon"
+                className="group relative flex-1 bg-pink-500 hover:bg-pink-400 text-black font-bold max-w-1/2 mx-auto my-5 font-mono uppercase tracking-wider py-4 px-8 flex items-center justify-center gap-2 transition-all clip-path-polygon"
                 style={{clipPath: "polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px)"}}
             >
                 {t('schedule.volunteer')}
