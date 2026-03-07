@@ -3,6 +3,7 @@ import { ArrowRight, Crosshair, Zap } from "lucide-react";
 import { useTranslation } from "react-i18next";
 // import { cn } from "../../lib/utils";
 import bgImage from "../../assets/abab3d4e6cf4c65ef562044cd443f24d6bf2ff2c.png";
+import logo from "../../assets/logo_ac.png";
 
 export function Hero() {
   const { t } = useTranslation();
@@ -28,7 +29,7 @@ export function Hero() {
         transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
       />
 
-      <div className="relative z-20 w-full max-w-7xl mx-auto px-6 pt-20 pb-12 flex flex-col items-center text-center">
+      <div className="relative z-20 w-full max-w-7xl mx-auto px-6 pt-20 pb-12 flex flex-col items-center align-baseline text-center">
 
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -42,7 +43,9 @@ export function Hero() {
           <span className="text-lime-500/70 text-xs font-mono uppercase tracking-widest border border-lime-500/30 px-2 py-0.5">
             {t('hero.season')}
           </span>
+            <img src={logo} className="block w-10" alt=""/>
         </motion.div>
+
 
         <motion.h1
           className="font-display font-black text-5xl md:text-8xl lg:text-9xl tracking-tighter uppercase leading-[0.9] md:leading-[0.85] mb-6 mix-blend-difference"
