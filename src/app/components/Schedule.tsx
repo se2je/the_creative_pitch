@@ -3,8 +3,8 @@ import {motion} from "motion/react";
 import {CheckCircle, Zap, Coffee, User, Flag, Trophy, ArrowRight} from "lucide-react";
 import {useTranslation} from "react-i18next";
 
-const icons = [CheckCircle, Flag, Zap, User, Zap, Coffee, User, Zap, User, Trophy, Flag];
-const types = ["logistics", "ceremony", "pitch", "lecture", "pitch", "break", "lecture", "pitch", "lecture", "finale", "ceremony"];
+const icons = [CheckCircle, Flag, Zap, User, Zap, Coffee, User, Zap, User, <Trophy></Trophy>];
+const types = ["logistics", "ceremony", "pitch", "lecture", "pitch", "break", "lecture", "pitch", "lecture", "finale"];
 
 export function Schedule() {
     const {t, i18n} = useTranslation();
